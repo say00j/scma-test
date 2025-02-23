@@ -1,0 +1,205 @@
+h1 {
+  font-size: 3em; /* Adjusted font size using relative unit */
+  font-weight: 700;
+}
+
+.container1 {
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  background-color: #00000083;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  max-width: 80vh; /* Adjusted width to be more responsive */
+  background: url("../Assets/background.jpg") no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.inputs {
+  margin: 55px auto; /* Adjusted margin to be more responsive */
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 90%; /* Adjusted width to be more responsive */
+  max-width: 400px; /* Added max-width for responsiveness */
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 100%; /* Adjusted width to be more responsive */
+  background: rgba(255, 255, 255, 0.521);
+  border: 2px solid black;
+  border-radius: 10px;
+  color: #000000;
+  transition: background-color 0.3s ease;
+}
+
+.input:hover {
+  background-color: #000000cc;
+}
+
+.input h2 {
+  font-size: 1.25em; /* Adjusted font size using relative unit */
+  transition: font-size 0.3s ease;
+}
+
+.input:hover h2 {
+  color: white;
+  font-size: 1.5em; /* Adjusted font size using relative unit */
+}
+
+.cool-heading {
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.box{
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontal centering */
+  justify-content: center; /* Vertical centering */
+}
+.Minput{
+  display:flex;
+  align-items:center;
+  margin:auto;
+  width: 525px;
+  height:50px;
+  background:#eaeaea;
+  border-radius:6px;
+  border: 2px solid black;
+  color: black;
+}
+
+
+.Minput input{
+  height:50px;
+  width:100%;
+  background:transparent;
+  border:none;
+  outline:none;
+  color:#000000;
+  font-size: 19px;
+  transition: font-size 0.3s ease; /* Add transition for font size */
+  text-transform: uppercase;
+  
+}
+.Minput img{
+margin: 0px 10px;
+width: 7%;
+}
+
+h4{
+color: black;
+}
+h4:hover{
+color: white;
+}
+
+
+/* Maintenance.css */
+/* Style for the input box */
+#Complaint {
+width: 502px;
+height: 200px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+border: 2px solid black;
+font-size: 16px;
+margin-bottom: 10px;
+background:#eaeaea;
+}
+#lab {
+  display: flex;
+  flex-direction: column;
+}
+
+#lab label{
+  font-size: 16px;
+  font-weight:bolder;
+}
+#lab select{
+  border: 2px solid black;
+  border-radius:5px;
+  height: 50px;
+  font-size: 19px;
+}
+
+/* Style for the placeholder */
+#Complaint::placeholder {
+color: #999;
+font-style: italic;
+}
+#ComplaintBox{
+width: 525px;
+height: 300px;
+}
+
+/* Style for the submit button */
+#ComplaintBox button {
+background-color: #000000;
+border: 2px solid black;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#ComplaintBox button:hover {
+border: 2px solid rgb(255, 255, 255);
+}
+
+/* Optional: Style for the form label */
+#ComplaintBox label {
+font-weight: bold;
+}
+textarea{
+resize: none;
+}
+
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 900px) {
+  .container2 {
+      max-width: 100%; /* Adjusted width for smaller screens */
+  }
+  .Minput{
+    width: 100%;
+  }
+  #ComplaintBox{
+    width: 100%;
+    
+    }
+    #Complaint{
+      width: 100%;
+      padding:0px;
+    }
+    .cool-heading {
+      font-size: 40px;
+    }
+}
+
+
+
+
+
+
+

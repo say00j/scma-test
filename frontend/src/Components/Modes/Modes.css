@@ -1,0 +1,105 @@
+h1 {
+    font-size: 3em; /* Adjusted font size using relative unit */
+    font-weight: 700;
+}
+
+.Mcontainer1 {
+    display: inline-flex;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: #00000083;
+}
+
+.Mcontainer2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    align-items: center;
+    width: 100%; /* Adjusted width to be more responsive */
+    height: 100vh;
+}
+
+.inputs {
+    margin: 55px auto; /* Adjusted margin to be more responsive */
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 90%; /* Adjusted width to be more responsive */
+    max-width: 400px; /* Added max-width for responsiveness */
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%; /* Adjusted width to be more responsive */
+    background: rgba(255, 255, 255, 0.797);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+.input:hover {
+    background-color: #000000cc;
+    
+}
+
+.input h2 {
+    font-size: 1.25em; /* Adjusted font size using relative unit */
+    
+}
+
+.input:hover h2 {
+    color: white;
+    font-size: 1.5em; /* Adjusted font size using relative unit */
+}
+
+.cool-heading {
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#big_text{
+    margin-left: 60px;
+    margin-top: 120px;
+    font-size: 80px;
+}
+#medium_text{
+    margin-left: 60px;
+    margin-top: 120px;
+    font-size: 50px;
+}
+#introduction{
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+#introduction h2 {
+    font-size: 28px; /* Adjust the size as needed */
+    color: white;
+}
+#introduction h3 {
+    font-size: 22px; /* Adjust the size as needed */
+}
+#introduction li {
+    font-size: 18px; /* Adjust the size as needed */
+}
+#introduction p {
+    font-size: 20px; /* Adjust the size as needed */
+    color:rgb(124, 242, 242);
+}
+
+
+@media (max-width: 800px) {
+    .welcome_text{
+    display: none;
+   }
+}
